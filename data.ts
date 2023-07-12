@@ -5,6 +5,7 @@ import { MdDeveloperMode } from "react-icons/md";
 import { IProject, Service, Skill } from "./types";
 
 import { BsCircleFill } from "react-icons/bs";
+import projectImages1 from './assest/project/mpv_portfolio.png'
 
 export const services: Service[] = [
   {
@@ -93,11 +94,11 @@ export const projects: IProject[] = [
     name: "Web Portfolio",
     description:
       "This app shows your showcase work and project details remotly with technical skill set and expertise",
-    image_path: "/images/covid.jpg",
+    image_path: `https://mateshwari.vercel.app/`,
     deployed_url: "https://mateshwari.vercel.app/",
     github_url: "https://github.com/mpv33/web-portfolio-nextjs",
     category: ["reactJs", "nextJs", "reactNative"],
-    key_techs: ["React", "Chart.js", "Material UI"],
+    key_techs: ["ReactJs", "Tailwind CSS", "NextJs"],
   }
 ];
 

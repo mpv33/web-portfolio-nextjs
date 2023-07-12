@@ -1,5 +1,6 @@
 module.exports = {
   images: {
-    domains: [""],
+    domains: ["https://mateshwari.vercel.app"],
   },
 };
+
