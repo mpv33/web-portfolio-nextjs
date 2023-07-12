@@ -1,29 +1,14 @@
-import {
-  GetServerSideProps,
-  GetServerSidePropsContext,
-  GetStaticProps,
-  GetStaticPropsContext,
-  NextPage,
-} from "next";
+import { NextPage} from "next";
 import ServiceCard from "../components/ServiceCard";
-import { services } from "../data";
-import { Service } from "../types";
+import { services ,userData} from "../data";
 
 const About: NextPage = () => {
-  // console.log(services);
 
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
-      <h6 className="my-3 text-base font-medium">
-        Experienced IT Professional with over 3.5+ years of industry experience, specializing in full stack development and proficient in Data Structures & Algorithms.
-        -Web/App Development: Proficient in utilizing ReactJs, Redux, Nodejs, NextJs, and ReactNative to build robust and scalable applications.
-        -JavaScript Developer: Expertise in leveraging JavaScript frameworks such as ReactJs, Redux, Nodejs, ReactNative, and NextJs to create efficient and innovative solutions.
-       <br />
-       <br />
-       - Current working as a Software Engineer-II at Slate Technologies, Bangalore, India.
-       <br />
-       - Education : B.Tech(CSE) from SR Institute of management and technology lucknow(uptu),UP.
-      </h6>
+      <div className="my-3 text-base font-medium">
+        <div dangerouslySetInnerHTML={{ __html: userData?.about }} />
+      </div>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}

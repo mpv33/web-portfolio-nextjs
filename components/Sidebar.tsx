@@ -7,6 +7,7 @@ import { useTheme } from "next-themes";
 import Image from "next/image";
 import { useEffect,useState } from "react";
 import dp from '../assest/images/mpv.jpg'
+import { userData } from "@/data";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -35,24 +36,24 @@ const Sidebar = () => {
         quality="100"
       />
       <h3 className="my-4 text-2xl tracking-wider font-kaushan">
-        <span className="text-green ">Mateshwari</span> Verma
+        <span className="text-green ">{userData?.name}</span> {userData?.lastName}
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
-      Software Engineer-MERN
+      {userData?.position}
       </p>
    
 
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
 
-        <a href="https://www.linkedin.com/in/mateshwari-verma-a41143168/" target="_blank" >
+        <a href={userData?.contacts?.linkedin_url} target="_blank" >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.hackerrank.com/mateshwari33" target="_blank" >
+        <a href={userData?.contacts?.coding_profile} target="_blank" >
           <FaHackerrank className="w-8 h-8 cursor-pointer" />
         </a>
         
-        <a href="https://github.com/mpv33" target="_blank">
+        <a href={userData?.contacts?.github_url} target="_blank">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
         </a>
       </div>
@@ -62,19 +63,19 @@ const Sidebar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center md:justify-start ml-4">
-          <GoLocation className="mr-2 text-black dark:text-white" /> <span>Balrampur,India </span>
+          <GoLocation className="mr-2 text-black dark:text-white" /> <span>{userData?.contacts?.address} </span>
         </div>
         <div className="flex items-center justify-center md:justify-start ml-4">
-          <MdEmail className="mr-2 text-black dark:text-white"/> <span>  mateshwari33@gmail.com </span>
+          <MdEmail className="mr-2 text-black dark:text-white"/> <span> {userData?.contacts?.email} </span>
         </div>
         <div className="flex items-center justify-center md:justify-start ml-4">
-          <BsPhoneVibrate className="mr-2 text-black dark:text-white" /> <span> +918853952715 </span>
+          <BsPhoneVibrate className="mr-2 text-black dark:text-white" /> <span> {userData?.contacts?.mobile} </span>
         </div>
       </div>
 
       <button
         className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
-        onClick={() => window.open("mailto:mateshwari33@gmail.com")}
+        onClick={() => window.open(`mailto:${userData?.contacts?.email}`)}
       >
         Email me
       </button>
