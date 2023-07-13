@@ -45,12 +45,6 @@ const Navbar = () => {
 
       <div className="text-base flex font-normal md:text-xl">
         <NavItem active={active} setActive={setActive} name="About" route="/" />
-        {/* <NavItem
-          active={active}
-          setActive={setActive}
-          name="Resume"
-          route="/resume"
-        /> */}
         <NavItem
           active={active}
           setActive={setActive}

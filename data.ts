@@ -1,11 +1,8 @@
 import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
-import { IProject, Service, Skill } from "./types";
-
-import { BsCircleFill } from "react-icons/bs";
-import projectImages1 from './assest/project/mpv_portfolio.png'
+import { IProject, Service } from "./types";
 
 export const services: Service[] = [
   {
@@ -33,78 +30,54 @@ export const services: Service[] = [
   }
 ];
 
-export const languages: Skill[] = [
-  {
-    Icon: BsCircleFill,
-    name: "Python",
-    level: "45",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Java Script",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React Native",
-    level: "80",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React",
-    level: "70",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Django",
-    level: "80",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Bootstrap",
-    level: "80",
-  },
-];
-
-export const tools: Skill[] = [
-  {
-    Icon: BsCircleFill,
-    name: "Figma",
-    level: "85",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Photoshop",
-    level: "45",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Illustrator",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Framer",
-    level: "45",
-  },
-];
-
 export const projects: IProject[] = [
   {
     name: "Web Portfolio",
     description:
-      "This app shows your showcase work and project details remotly with technical skill set and expertise",
-    image_path: `https://mateshwari.vercel.app/`,
+      `Explore my portfolio to see my showcase work and gain insights into
+     my technical skill set and expertise. Discover the potential of our 
+     collaboration by delving into my projects remotely.`,
+    image_path: '/projectImages/p1.png',
     deployed_url: "https://mateshwari.vercel.app/",
     github_url: "https://github.com/mpv33/web-portfolio-nextjs",
-    category: ["reactJs", "nextJs", "reactNative"],
+    category: ["reactJs", "nextJs"],
     key_techs: ["ReactJs", "Tailwind CSS", "NextJs"],
-  }
+  },
+  {
+    name: "Smorgborg Org",
+    description:
+      `Smorgborg helps clubs, organizations, and communities get organized and connected: 
+      Manage Multiple Lists of Contacts,
+      Create Professional Looking Articles and Events,
+     Send Emails & Newsletters,
+    Connects to your Social Media,
+     And Much More...
+      `,
+    image_path: '/projectImages/p2.png',
+    deployed_url: "https://smorgborg.org/",
+    github_url: "https://smorgborg.org/",
+    category: ["reactJs", "nodeJs"],
+    key_techs: ["ReactJs", "Redux","Custom Email Template Editor", "Tailwind CSS", "NodeJs"],
+  },
+  {
+    name: "FunAcademy",
+    description:
+      `During my college years, I pursued web development as a creative outlet,
+       acquiring skills in HTML, CSS, and JavaScript. What started as a personal endeavor
+       has now sparked a passion for making professional contributions in this dynamic field.
+      `,
+    image_path: '/projectImages/p3.png',
+    deployed_url: "https://mpv33.github.io/funacademy_demo/",
+    github_url: "https://mpv33.github.io/funacademy_demo/",
+    category: ["jS"],
+    key_techs: ["HTML", "CSS","JavaScript"],
+  },
 ];
 
 export const userData = {
   name: 'Mateshwari',
-  lastName:'Verma',
+  lastName: 'Verma',
+  dp: '/images/mpv.jpg',
   position: 'Software Engineer-MERN',
   about: `
    Experienced IT Professional with over 3+ years of industry experience, specializing in web development and proficient in  ReactJs & NodeJs. <br />
@@ -121,6 +94,6 @@ export const userData = {
     linkedin_url: 'https://www.linkedin.com/in/mateshwari-verma-a41143168/',
     github_url: 'https://github.com/mpv33',
     coding_profile: 'https://www.hackerrank.com/mateshwari33',
-    address:'Balrampur,UP,India'
+    address: 'Balrampur,UP,India'
   }
 }

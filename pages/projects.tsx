@@ -30,14 +30,22 @@ const Projects = () => {
       />
 
       <div className="relative grid grid-cols-12 gap-4 my-3">
-        {projects.map((project) => (
-          <div className="col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200">
-            <ProjectCard
-              project={project}
-              key={project.name}
-            />
-          </div>
-        ))}
+        {
+          projects?.length > 0 ?
+            projects.map((project) => (
+              <div className="col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200">
+                <ProjectCard
+                  project={project}
+                  key={project.name}
+                />
+              </div>
+            ))
+            :
+            <div className="w-full flex justify-center items-center rounded-md bg-gray-100 text-center col-span-12 h-[200px]">
+              No Project Found
+            </div>
+        }
+
       </div>
     </div>
   );

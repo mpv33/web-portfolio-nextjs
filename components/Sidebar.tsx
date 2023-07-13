@@ -27,7 +27,7 @@ const Sidebar = () => {
   return (
     <>
       <Image
-        src={dp}
+        src={userData?.dp}
         alt="avatar"
         className=" mx-auto border rounded-full "
         height={128}

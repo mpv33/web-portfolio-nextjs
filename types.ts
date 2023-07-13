@@ -15,11 +15,11 @@ export interface Skill {
 export interface IProject {
   name: string;
   description: string;
-  image_path: string;
+  image_path: any;
   deployed_url: string;
   github_url: string;
   category: Category[];
   key_techs: string[];
 }
 
-export type Category = "reactJs" | "nodeJs"  | "nextJs"  | "reactNative" | 'javaScript';
+export type Category = "reactJs" | "nodeJs"  | "nextJs"  | "reactNative" | 'jS';
