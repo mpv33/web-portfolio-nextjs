@@ -46,7 +46,8 @@ export const projects: IProject[] = [
   {
     name: "Smorgborg Org",
     description:
-      `Smorgborg helps clubs, organizations, and communities get organized and connected: 
+      `Client Product-
+      Smorgborg helps clubs, organizations, and communities get organized and connected: 
       Manage Multiple Lists of Contacts,
       Create Professional Looking Articles and Events,
      Send Emails & Newsletters,
@@ -55,16 +56,29 @@ export const projects: IProject[] = [
       `,
     image_path: '/projectImages/p2.png',
     deployed_url: "https://smorgborg.org/",
-    github_url: "https://smorgborg.org/",
+    github_url: "",
     category: ["reactJs", "nodeJs"],
     key_techs: ["ReactJs", "Redux","Custom Email Template Editor", "Tailwind CSS", "NodeJs"],
+  },
+  {
+    name: "Yovi Web App",
+    description:
+      `Client Product-Manage Your Event. 
+      TOP EVENTS,
+      AT YOUR LOCATION
+      `,
+    image_path: '/projectImages/p4.png',
+    deployed_url: "https://www.findyovi.com/",
+    github_url: "",
+    category: ["reactJs", "nodeJs"],
+    key_techs: ["ReactJs", "Redux", "Tailwind CSS", "NodeJs"],
   },
   {
     name: "FunAcademy",
     description:
       `During my college years, I pursued web development as a creative outlet,
        acquiring skills in HTML, CSS, and JavaScript. What started as a personal endeavor
-       has now sparked a passion for making professional contributions in this dynamic field.
+       has now sparked a passion for making professional contributions in this dynamic field with team members.
       `,
     image_path: '/projectImages/p3.png',
     deployed_url: "https://mpv33.github.io/funacademy_demo/",
