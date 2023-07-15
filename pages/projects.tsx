@@ -1,8 +1,9 @@
 import { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
 import ProjectsNavbar from "../components/ProjectsNavbar";
-import { projects as projectsData } from "../data";
+import { projects as projectsData, userData } from "../data";
 import { Category } from "../types";
+import SEO from "@/components/SEO";
 
 const Projects = () => {
   const [projects, setProjects] = useState(projectsData);
@@ -24,11 +25,11 @@ const Projects = () => {
 
   return (
     <div className="px-5 py-2 overflow-y-scroll" style={{ height: "65vh" }}>
+
       <ProjectsNavbar
         handlerFilterCategory={handlerFilterCategory}
         active={active}
       />
-
       <div className="relative grid grid-cols-12 gap-4 my-3">
         {
           projects?.length > 0 ?
@@ -37,6 +38,10 @@ const Projects = () => {
                 <ProjectCard
                   project={project}
                   key={project.name}
+                />
+                <SEO
+                  title={`${userData.name} Projects`}
+                  description={project.description}
                 />
               </div>
             ))

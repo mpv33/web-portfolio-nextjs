@@ -1,39 +1,95 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mateshwari Verma Portfolio
 
+Welcome to my professional portfolio! This repository showcases my skills, experience, and projects as a software engineer.
 ## Getting Started
 
-First, run the development server:
+To get started with this nextjs project, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone <repository-url>
+   npm install 
+   npm run dev
+## Note:
+ This repository is fully dynamic, allowing you to customize the content by modifying the data.ts file. Simply clone the repository, change the data inside the data.ts file with your own information, and run the project locally using the provided commands.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Table of Contents
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- [About Me](#about-me)
+- [Skills](#skills)
+- [Experience](#experience)
+- [Projects](#projects)
+- [Education](#education)
+- [Contact](#contact)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## About Me
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Experienced IT Professional with over 3+ years of industry experience, specializing in web development and proficient in ReactJs & NodeJs. Passionate about building robust and scalable applications with innovative solutions.
 
-## Learn More
+## Skills
 
-To learn more about Next.js, take a look at the following resources:
+- Frontend Development: HTML, CSS, JavaScript, Tailwind CSS, ReactJs, NextJs
+- Backend Development: NodeJs, Express, MongoDB
+- App Development: React Native-Expo/CLI, Android Studio
+- Competitive Coding: DSA practice on HackerRank and LeetCode
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Experience
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Software Engineer-II** - Slate AI Technologies, Bangalore, India
 
-## Deploy on Vercel
+- Description of your role, responsibilities, and notable achievements.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Projects
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# web-portfolio-nextjs
+### Web Portfolio
+
+Explore my portfolio to see my showcase work and gain insights into my technical skill set and expertise.
+
+- Description: Explore my portfolio to see my showcase work and gain insights into my technical skill set and expertise. Discover the potential of our collaboration by delving into my projects remotely.
+- Deployed URL: [https://mateshwari.vercel.app/](https://mateshwari.vercel.app/)
+- GitHub URL: [https://github.com/mpv33/web-portfolio-nextjs](https://github.com/mpv33/web-portfolio-nextjs)
+- Category: ReactJs, NextJs
+- Key Technologies: ReactJs, Tailwind CSS, NextJs
+
+### Smorgborg Org
+
+Client Product - Smorgborg helps clubs, organizations, and communities get organized and connected.
+
+- Description: Smorgborg helps clubs, organizations, and communities get organized and connected. It allows you to manage multiple lists of contacts, create professional-looking articles and events, send emails and newsletters, connect to your social media, and much more.
+- Deployed URL: [https://smorgborg.org/](https://smorgborg.org/)
+- Category: ReactJs, NodeJs
+- Key Technologies: ReactJs, Redux, Custom Email Template Editor, Tailwind CSS, NodeJs
+
+### Yovi Web App
+
+Client Product - Manage Your Event. Top events at your location.
+
+- Description: Manage Your Event. Top events at your location.
+- Deployed URL: [https://www.findyovi.com/](https://www.findyovi.com/)
+- Category: ReactJs, NodeJs
+- Key Technologies: ReactJs, Redux, Tailwind CSS, NodeJs
+
+### FunAcademy
+
+During my college years, I pursued web development as a creative outlet, acquiring skills in HTML, CSS, and JavaScript.
+
+- Description: During my college years, I pursued web development as a creative outlet, acquiring skills in HTML, CSS, and JavaScript. What started as a personal endeavor has now sparked a passion for making professional contributions in this dynamic field with team members.
+- Deployed URL: [https://mpv33.github.io/funacademy_demo/](https://mpv33.github.io/funacademy_demo/)
+- GitHub URL: [https://mpv33.github.io/funacademy_demo/](https://mpv33.github.io/funacademy_demo/)
+- Category: JavaScript
+- Key Technologies: HTML, CSS, JavaScript
+
+## Education
+
+- B.Tech (CSE) from SR Institute of Management and Technology, Lucknow
+
+## Contact
+
+- Mobile: +91XXXXXXXX15
+- Email: mateshwari33@gmail.com
+- LinkedIn: [https://www.linkedin.com/in/mateshwari-verma-a41143168/](https://www.linkedin.com/in/mateshwari-verma-a41143168/)
+- GitHub: [https://github.com/mpv33](https://github.com/mpv33)
+- HackerRank: [https://www.hackerrank.com/mateshwari33](https://www.hackerrank.com/mateshwari33)
+- Address: Balrampur, UP, India
+

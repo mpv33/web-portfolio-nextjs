@@ -42,7 +42,6 @@ const Navbar = () => {
       <span className="text-xl font-bold border-b-4 md:text-2xl border-green">
         {active}
       </span>
-
       <div className="text-base flex font-normal md:text-xl">
         <NavItem active={active} setActive={setActive} name="About" route="/" />
         <NavItem

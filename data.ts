@@ -58,7 +58,7 @@ export const projects: IProject[] = [
     deployed_url: "https://smorgborg.org/",
     github_url: "",
     category: ["reactJs", "nodeJs"],
-    key_techs: ["ReactJs", "Redux","Custom Email Template Editor", "Tailwind CSS", "NodeJs"],
+    key_techs: ["ReactJs", "Redux", "Custom Email Template Editor", "Tailwind CSS", "NodeJs"],
   },
   {
     name: "Yovi Web App",
@@ -84,7 +84,7 @@ export const projects: IProject[] = [
     deployed_url: "https://mpv33.github.io/funacademy_demo/",
     github_url: "https://mpv33.github.io/funacademy_demo/",
     category: ["jS"],
-    key_techs: ["HTML", "CSS","JavaScript"],
+    key_techs: ["HTML", "CSS", "JavaScript"],
   },
 ];
 
@@ -103,11 +103,21 @@ export const userData = {
    <b> Education : </b>  B.Tech (CSE) from SR Institute of management and technology Lucknow.
    `,
   contacts: {
-    mobile: '+918853952715',
+    mobile: '+91xxxxxxxx15',
     email: 'mateshwari33@gmail.com',
     linkedin_url: 'https://www.linkedin.com/in/mateshwari-verma-a41143168/',
     github_url: 'https://github.com/mpv33',
     coding_profile: 'https://www.hackerrank.com/mateshwari33',
     address: 'Balrampur,UP,India'
-  }
+  },
+  defaultTitle: 'Mateshwari Portfolio',
+  defaultDescription:
+    `Experienced IT Professional with over 3+ years of industry experience,
+   specializing in web development and proficient in ReactJs & NodeJs.
+    Web/App Development: Proficient in utilizing ReactJs, Redux, Nodejs, NextJs,
+     and ReactNative to build robust and scalable applications with innovative solutions.`,
+  defaultImageUrl: 'https://mateshwari.vercel.app/images/mpv.jpg',
+  siteName : 'Mateshwari Verma Portfolio',
+  siteUrl :'https://mateshwari.vercel.app/',
+  defaultAuthor:'Mateshwari Verma',
 }

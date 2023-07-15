@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { userData } from "@/data";
+import SEO from "@/components/SEO";
 
 class MyDocument extends Document {
   render() {
@@ -11,16 +12,15 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
             rel="stylesheet"
           />
-          <title>{`${userData?.name} Portfolio`}</title>
           <meta
             name="description"
-           content={userData?.about}
+           content={userData?.defaultDescription}
           />
           <meta
             name="keywords"
-            content={userData?.about}
+            content={userData?.defaultDescription}
           />
-          <meta name="author" content={userData?.name} />
+          <meta name="author" content={userData?.defaultAuthor} />
         </Head>
         <body className="bg-fixed bg-gradient-to-r from-green to-blue-500 dark:from-dark-500 dark:to-dark-700 dark:text-white">
           <Main />

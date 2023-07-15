@@ -18,19 +18,24 @@ const ProjectCard: FunctionComponent<{
   },
 }) => {
     const [showDetail, setShowDetail] = useState(false);
-  
+
     return (
       <div>
-        <Image
-          src={image_path}
-          alt={name}
-          className="cursor-pointer"
-          onClick={() => setShowDetail(true)}
-          layout="responsive"
-          height="150"
-          width="300"
-        />
-        <p className="my-2 text-center">{name}</p>
+        {
+          !showDetail &&
+          <div>
+            <Image
+              src={image_path}
+              alt={name}
+              className="cursor-pointer"
+              onClick={() => setShowDetail(true)}
+              layout="responsive"
+              height="150"
+              width="300"
+            />
+            <p className="my-2 text-center">{name}</p>
+          </div>
+        }
         {showDetail && (
           <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
             <div>
@@ -43,15 +48,15 @@ const ProjectCard: FunctionComponent<{
               />
               <div className="flex justify-center my-4 space-x-3">
                 {
-                  github_url && 
+                  github_url &&
                   <a
-                  href={github_url}
-                  className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
-                >
-                  <AiFillGithub /> <span>Github</span>
-                </a>
+                    href={github_url}
+                    className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
+                  >
+                    <AiFillGithub /> <span>Github</span>
+                  </a>
                 }
-              
+
                 <a
                   href={deployed_url}
                   className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
