@@ -32,6 +32,19 @@ export const services: Service[] = [
 
 export const projects: IProject[] = [
   {
+    name: "InterviewPro Web App",
+    description:
+      ` InterviewPro offers high-quality  free technical content on Data Structures and Algorithms (DSA),
+      JavaScript, ReactJS, NodeJs, and NextJs, 
+     catering to last-minute preparation for the most commonly asked interview questions. 
+     Its my personal product.`,
+    image_path: '/projectImages/p0.png',
+    deployed_url: "https://interviewpro-notes.vercel.app/",
+    github_url: "",
+    category: ["reactJs", "nextJs"],
+    key_techs: ["ReactJs", "Tailwind CSS", "NextJs"],
+  },
+  {
     name: "Web Portfolio",
     description:
       `Explore my portfolio to see my showcase work and gain insights into
@@ -48,11 +61,9 @@ export const projects: IProject[] = [
     description:
       `Client Product-
       Smorgborg helps clubs, organizations, and communities get organized and connected: 
-      Manage Multiple Lists of Contacts,
-      Create Professional Looking Articles and Events,
-     Send Emails & Newsletters,
-    Connects to your Social Media,
-     And Much More...
+      Create Professional Looking Articles and Events, Custom Email,And Much More.
+      developed Custom Email Template Editor in ReactJs with the help of ckedittor.
+     I have meticulously crafted this product from inception to completion.
       `,
     image_path: '/projectImages/p2.png',
     deployed_url: "https://smorgborg.org/",
@@ -63,9 +74,8 @@ export const projects: IProject[] = [
   {
     name: "Yovi Web App",
     description:
-      `Client Product-Manage Your Event. 
-      TOP EVENTS,
-      AT YOUR LOCATION
+      `Client Product-Manage Your Event based on worlwide location. 
+      I have meticulously crafted this product from inception to completion.
       `,
     image_path: '/projectImages/p4.png',
     deployed_url: "https://www.findyovi.com/",
@@ -117,7 +127,7 @@ export const userData = {
     Web/App Development: Proficient in utilizing ReactJs, Redux, Nodejs, NextJs,
      and ReactNative to build robust and scalable applications with innovative solutions.`,
   defaultImageUrl: 'https://mateshwari.vercel.app/images/mpv.jpg',
-  siteName : 'Mateshwari Verma Portfolio',
-  siteUrl :'https://mateshwari.vercel.app/',
-  defaultAuthor:'Mateshwari Verma',
+  siteName: 'Mateshwari Verma Portfolio',
+  siteUrl: 'https://mateshwari.vercel.app/',
+  defaultAuthor: 'Mateshwari Verma',
 }

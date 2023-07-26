@@ -38,8 +38,6 @@ Experienced IT Professional with over 3+ years of industry experience, specializ
 
 **Software Engineer-II** - Slate AI Technologies, Bangalore, India
 
-- Description of your role, responsibilities, and notable achievements.
-
 ## Projects
 
 ### Web Portfolio
