@@ -18,7 +18,7 @@ const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => {
         <div className="h-full col-span-12 p-4 text-base text-center bg-white dark:bg-dark-500 lg:col-span-3 rounded-2xl shadow-custom-light dark:shadow-custom-dark ">
           <Sidebar />
         </div>
-        <div className="flex flex-col col-span-12 overflow-hidden bg-white shadow-custom-light dark:shadow-custom-dark rounded-2xl lg:col-span-9 dark:bg-dark-500">
+        <div className="flex min-h-[85vh] flex-col col-span-12 overflow-hidden bg-white shadow-custom-light dark:shadow-custom-dark rounded-2xl lg:col-span-9 dark:bg-dark-500">
           <Navbar />
           <Component {...pageProps} />
         </div>
