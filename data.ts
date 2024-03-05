@@ -32,6 +32,19 @@ export const services: Service[] = [
 
 export const projects: IProject[] = [
   {
+    name: "Genius-Saas AI ",
+    description:
+      ` Its saas ai platform & integrated with openai,replicate ai.
+      Feature- coversation,image,code,music generation.
+      Authentication with Clerk,Stripe monthly subscription
+      `,
+    image_path: '/projectImages/genius.png',
+    deployed_url: "https://genius-code.vercel.app/",
+    github_url: "https://github.com/mpv33/Genius-saas-ai-nextjs",
+    category: ["reactJs", "nextJs"],
+    key_techs: ["ReactJs", "Tailwind CSS", "NextJs","Clerk","OpenAI","Stripe","Mongodb","Crips"],
+  },
+  {
     name: "Notion Clone",
     description:
       `Implemented basic feature and ui of notion.
@@ -46,17 +59,16 @@ export const projects: IProject[] = [
     key_techs: ["ReactJs", "Tailwind CSS", "NextJs","Clerk","OpenAI","Convex","Edge store"],
   },
   {
-    name: "Genius-Saas AI ",
+    name: "Flipkart Clone ",
     description:
-      ` Its saas ai platform & integrated with openai,replicate ai.
-      Feature- coversation,image,code,music generation.
-      Authentication with Clerk,Stripe monthly subscription
+      ` Flipkart clone-Basic Feature and UI implementation as
+       flipkart lke search product , add to cart,checkout,payment..etc
       `,
-    image_path: '/projectImages/genius.png',
-    deployed_url: "https://genius-code.vercel.app/",
-    github_url: "https://github.com/mpv33/Genius-saas-ai-nextjs",
-    category: ["reactJs", "nextJs"],
-    key_techs: ["ReactJs", "Tailwind CSS", "NextJs","Clerk","OpenAI","Stripe","Mongodb","Crips"],
+    image_path: '/projectImages/flipkart.png',
+    deployed_url: "https://flipkart-clone-m.vercel.app/",
+    github_url: "https://github.com/mpv33/flipkart-clone-frontend",
+    category: ["reactJs", "nodeJs"],
+    key_techs: ["ReactJs", "Redux","Material UI", "NodeJs","Mongodb"],
   },
   {
     name: "InterviewPro",
