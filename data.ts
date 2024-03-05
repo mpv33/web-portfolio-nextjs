@@ -131,7 +131,7 @@ export const userData = {
   dp: '/images/mpv.jpg',
   position: 'Full stack developer',
   about: `
-   Experienced IT Professional with over 3+ years of industry experience, specializing in web development and proficient in  ReactJs & NodeJs. <br />
+   Experienced IT Professional with over 4+ years of industry experience, specializing in web development and proficient in  ReactJs & NodeJs. <br />
    <b> Web/App Development: </b> Proficient in utilizing ReactJs, Redux, Nodejs, NextJs, and ReactNative to build robust and scalable applications with innovative solutions.
    <br />
    <br />
