@@ -25,14 +25,41 @@ export const services: Service[] = [
   },
   {
     Icon: MdDeveloperMode,
-    title: "Competitive Coder",
+    title: "Problem solving",
     about: "DSA coding practice at <b>HackerRank</b>  and <b>Leet Code</b> ",
   }
 ];
 
 export const projects: IProject[] = [
   {
-    name: "InterviewPro Web App",
+    name: "Notion Clone",
+    description:
+      `Implemented basic feature and ui of notion.
+      feature like- Authentication,Create doc,Publish to Web.
+      Real-time Database & Notion-style Editor.
+      Infinite Children Documents,Trash Can & Soft Delete.
+      `,
+    image_path: '/projectImages/notion.png',
+    deployed_url: "https://notion-mateshwari.vercel.app/",
+    github_url: "https://github.com/mpv33/notion-clone-nextjs",
+    category: ["reactJs", "nextJs"],
+    key_techs: ["ReactJs", "Tailwind CSS", "NextJs","Clerk","OpenAI","Convex","Edge store"],
+  },
+  {
+    name: "Genius-Saas AI ",
+    description:
+      ` Its saas ai platform & integrated with openai,replicate ai.
+      Feature- coversation,image,code,music generation.
+      Authentication with Clerk,Stripe monthly subscription
+      `,
+    image_path: '/projectImages/genius.png',
+    deployed_url: "https://genius-code.vercel.app/",
+    github_url: "https://github.com/mpv33/Genius-saas-ai-nextjs",
+    category: ["reactJs", "nextJs"],
+    key_techs: ["ReactJs", "Tailwind CSS", "NextJs","Clerk","OpenAI","Stripe","Mongodb","Crips"],
+  },
+  {
+    name: "InterviewPro",
     description:
       ` InterviewPro offers high-quality  free technical content on Data Structures and Algorithms (DSA),
       JavaScript, ReactJS, NodeJs, and NextJs, 
@@ -102,18 +129,18 @@ export const userData = {
   name: 'Mateshwari',
   lastName: 'Verma',
   dp: '/images/mpv.jpg',
-  position: 'Software Engineer-MERN',
+  position: 'Full stack developer',
   about: `
    Experienced IT Professional with over 3+ years of industry experience, specializing in web development and proficient in  ReactJs & NodeJs. <br />
    <b> Web/App Development: </b> Proficient in utilizing ReactJs, Redux, Nodejs, NextJs, and ReactNative to build robust and scalable applications with innovative solutions.
    <br />
    <br />
-   <b>  Present :</b> Software Engineer-II at Slate AI Technologies, Bangalore, India.
+   <b>  Present :</b> Senior Software Engineer at Slate AI Technologies, Bangalore, India.
    <br />
    <b> Education : </b>  B.Tech (CSE) from SR Institute of management and technology Lucknow.
    `,
   contacts: {
-    mobile: '+91xxxxxxxx15',
+    mobile: '+918853952715',
     email: 'mateshwari33@gmail.com',
     linkedin_url: 'https://www.linkedin.com/in/mateshwari-verma-a41143168/',
     github_url: 'https://github.com/mpv33',

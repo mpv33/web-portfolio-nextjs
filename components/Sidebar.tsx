@@ -1,6 +1,6 @@
 import { AiFillGithub, AiFillLinkedin, } from "react-icons/ai";
 import { FaRegMoon ,FaHackerrank} from "react-icons/fa";
-import { BsSun,BsPhoneVibrate } from "react-icons/bs";
+import { BsSun,BsPhoneVibrate, BsDownload } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
@@ -23,6 +23,17 @@ const Sidebar = () => {
     setTheme(theme === "light" ? "dark" : "light");
 
   };
+  const handleDownload = () => {
+    // Construct the URL for the PDF file
+    const pdfUrl = "/resume/mpv.pdf";
+    // Trigger the download
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "mateshwari_resume.pdf"; // Change the filename if needed
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <>
@@ -41,7 +52,13 @@ const Sidebar = () => {
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
       {userData?.position}
       </p>
-   
+      <button
+          onClick={handleDownload} 
+          className="cursor-pointer hover:text-blue-500"
+        >
+         Download Resume
+        </button>
+
 
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">

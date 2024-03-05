@@ -8,6 +8,17 @@ import SEO from "@/components/SEO";
 const Projects = () => {
   const [projects, setProjects] = useState(projectsData);
   const [active, setActive] = useState("all");
+  const [showDetail, setShowDetail] = useState({
+    show:false,
+    index:0
+  });
+
+  const handleShowDetails=(details:boolean,id:number)=>{
+    setShowDetail({
+      show:details,
+      index:id
+    })
+  }
 
   const handlerFilterCategory = (category: Category | "all") => {
     if (category === "all") {
@@ -37,7 +48,9 @@ const Projects = () => {
               <div key={i} className="col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200">
                 <ProjectCard
                   project={project}
-                  key={i}
+                  id={i}
+                  showDetail={showDetail}
+                  handleShowDetails={handleShowDetails}
                 />
                 <SEO
                   title={`${userData.name} Projects`}
