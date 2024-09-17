@@ -143,13 +143,10 @@ export const userData = {
   dp: '/images/mpv.jpg',
   position: 'Full stack developer',
   about: `
-   Experienced IT Professional with over 4+ years of industry experience, specializing in web development and proficient in  ReactJs & NodeJs. <br />
-   <b> Web/App Development: </b> Proficient in utilizing ReactJs, Redux, Nodejs, NextJs, and ReactNative to build robust and scalable applications with innovative solutions.
-   <br />
-   <br />
-   <b>  Present :</b> Senior Software Engineer at Slate AI Technologies, Bangalore, India.
-   <br />
-   <b> Education : </b>  B.Tech (CSE) from SR Institute of management and technology Lucknow.
+  Full Stack Developer with 4+ years of experience, strong in problem-solving, data structures, 
+  and algorithms. Proficient in JavaScript with specialization in ReactJs, NextJs. 
+  Adept at creating scalable, user-focused web applications. Skilled in Node.js,
+   and MongoDB for robust backend development
    `,
   contacts: {
     mobile: '+918853952715',
