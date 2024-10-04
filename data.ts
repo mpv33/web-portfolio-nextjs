@@ -32,19 +32,6 @@ export const services: Service[] = [
 
 export const projects: IProject[] = [
   {
-    name: "Genius-Saas AI ",
-    description:
-      ` Its saas ai platform & integrated with openai,replicate ai.
-      Feature- coversation,image,code,music generation.
-      Authentication with Clerk,Stripe monthly subscription
-      `,
-    image_path: '/projectImages/genius.png',
-    deployed_url: "https://genius-code.vercel.app/",
-    github_url: "https://github.com/mpv33/Genius-saas-ai-nextjs",
-    category: ["reactJs", "nextJs"],
-    key_techs: ["ReactJs", "Tailwind CSS", "NextJs","Clerk","OpenAI","Stripe","Mongodb","Crips"],
-  },
-  {
     name: "Notion Clone",
     description:
       `Implemented basic feature and ui of notion.
@@ -57,18 +44,6 @@ export const projects: IProject[] = [
     github_url: "https://github.com/mpv33/notion-clone-nextjs",
     category: ["reactJs", "nextJs"],
     key_techs: ["ReactJs", "Tailwind CSS", "NextJs","Clerk","OpenAI","Convex","Edge store"],
-  },
-  {
-    name: "Flipkart Clone ",
-    description:
-      ` Flipkart clone-Basic Feature and UI implementation as
-       flipkart lke search product , add to cart,checkout,payment..etc
-      `,
-    image_path: '/projectImages/flipkart.png',
-    deployed_url: "https://flipkart-clone-m.vercel.app/",
-    github_url: "https://github.com/mpv33/flipkart-clone-frontend",
-    category: ["reactJs", "nodeJs"],
-    key_techs: ["ReactJs", "Redux","Material UI", "NodeJs","Mongodb"],
   },
   {
     name: "InterviewPro",
@@ -84,16 +59,41 @@ export const projects: IProject[] = [
     key_techs: ["ReactJs", "Tailwind CSS", "NextJs"],
   },
   {
-    name: "Web Portfolio",
+    name: "Flipkart Clone ",
     description:
-      `Explore my portfolio to see my showcase work and gain insights into
-     my technical skill set and expertise. Discover the potential of our 
-     collaboration by delving into my projects remotely.`,
-    image_path: '/projectImages/p1.png',
-    deployed_url: "https://mateshwari.vercel.app/",
-    github_url: "https://github.com/mpv33/web-portfolio-nextjs",
+      ` Flipkart clone-Basic Feature and UI implementation as
+       flipkart lke search product , add to cart,checkout,payment..etc
+      `,
+    image_path: '/projectImages/flipkart.png',
+    deployed_url: "https://flipkart-clone-m.vercel.app/",
+    github_url: "https://github.com/mpv33/flipkart-clone-frontend",
+    category: ["reactJs", "nodeJs"],
+    key_techs: ["ReactJs", "Redux","Material UI", "NodeJs","Mongodb"],
+  },
+  {
+    name: "Yovi Web App",
+    description:
+      `Client Product-Manage Your Event based on worlwide location. 
+      I have meticulously crafted this product from inception to completion.
+      `,
+    image_path: '/projectImages/p4.png',
+    deployed_url: "https://www.findyovi.com/",
+    github_url: "",
+    category: ["reactJs", "nodeJs"],
+    key_techs: ["ReactJs", "Redux", "Tailwind CSS", "NodeJs"],
+  },
+  {
+    name: "Genius-Saas AI ",
+    description:
+      ` Its saas ai platform & integrated with openai,replicate ai.
+      Feature- coversation,image,code,music generation.
+      Authentication with Clerk,Stripe monthly subscription
+      `,
+    image_path: '/projectImages/genius.png',
+    deployed_url: "https://genius-code.vercel.app/",
+    github_url: "https://github.com/mpv33/Genius-saas-ai-nextjs",
     category: ["reactJs", "nextJs"],
-    key_techs: ["ReactJs", "Tailwind CSS", "NextJs"],
+    key_techs: ["ReactJs", "Tailwind CSS", "NextJs","Clerk","OpenAI","Stripe","Mongodb","Crips"],
   },
   {
     name: "Smorgborg Org",
@@ -111,16 +111,16 @@ export const projects: IProject[] = [
     key_techs: ["ReactJs", "Redux", "Custom Email Template Editor", "Tailwind CSS", "NodeJs"],
   },
   {
-    name: "Yovi Web App",
+    name: "Web Portfolio",
     description:
-      `Client Product-Manage Your Event based on worlwide location. 
-      I have meticulously crafted this product from inception to completion.
-      `,
-    image_path: '/projectImages/p4.png',
-    deployed_url: "https://www.findyovi.com/",
-    github_url: "",
-    category: ["reactJs", "nodeJs"],
-    key_techs: ["ReactJs", "Redux", "Tailwind CSS", "NodeJs"],
+      `Explore my portfolio to see my showcase work and gain insights into
+     my technical skill set and expertise. Discover the potential of our 
+     collaboration by delving into my projects remotely.`,
+    image_path: '/projectImages/p1.png',
+    deployed_url: "https://mateshwari.vercel.app/",
+    github_url: "https://github.com/mpv33/web-portfolio-nextjs",
+    category: ["reactJs", "nextJs"],
+    key_techs: ["ReactJs", "Tailwind CSS", "NextJs"],
   },
   {
     name: "FunAcademy",
